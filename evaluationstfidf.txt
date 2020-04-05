@@ -1,0 +1,336 @@
+Current Time = 23:41:51
+Current Time = 23:41:51
+Linear SVM (OvR)
+Current Time = 23:42:04
+acc:	 0.3979695431472081
+              precision    recall  f1-score   support
+
+     country       0.53      0.81      0.64       199
+      hiphop       0.22      0.16      0.19       255
+         pop       0.46      0.74      0.57       239
+        rock       0.12      0.04      0.07       292
+
+    accuracy                           0.40       985
+   macro avg       0.33      0.44      0.36       985
+weighted avg       0.31      0.40      0.33       985
+
+--------------------
+[[161   7  27   4]
+ [ 51  42  84  78]
+ [ 36  18 176   9]
+ [ 56 127  96  13]]
+Current Time = 23:42:11
+Nearest Neighbors (OvR)
+Current Time = 23:42:12
+acc:	 0.283248730964467
+              precision    recall  f1-score   support
+
+     country       0.49      0.60      0.54       199
+      hiphop       0.06      0.03      0.04       255
+         pop       0.35      0.46      0.39       239
+        rock       0.14      0.15      0.14       292
+
+    accuracy                           0.28       985
+   macro avg       0.26      0.31      0.28       985
+weighted avg       0.24      0.28      0.26       985
+
+--------------------
+[[119  12  30  38]
+ [ 36   7  56 156]
+ [ 36  14 109  80]
+ [ 52  78 118  44]]
+Current Time = 23:42:21
+RBF SVM (OvR)
+Current Time = 23:42:36
+acc:	 0.30456852791878175
+              precision    recall  f1-score   support
+
+     country       0.71      0.59      0.64       199
+      hiphop       0.00      0.00      0.00       255
+         pop       0.50      0.77      0.61       239
+        rock       0.00      0.00      0.00       292
+
+    accuracy                           0.30       985
+   macro avg       0.30      0.34      0.31       985
+weighted avg       0.27      0.30      0.28       985
+
+--------------------
+[[117   0  80   2]
+ [  9   0  50 196]
+ [ 29  18 183   9]
+ [  9 233  50   0]]
+Current Time = 23:42:47
+
+____________________________________
+
+Current Time = 23:43:24
+Current Time = 23:43:24
+Decision Tree (OvR)
+Current Time = 23:43:26
+acc:	 0.31269035532994927
+              precision    recall  f1-score   support
+
+     country       0.59      0.50      0.54       199
+      hiphop       0.17      0.23      0.20       255
+         pop       0.49      0.43      0.46       239
+        rock       0.18      0.16      0.17       292
+
+    accuracy                           0.31       985
+   macro avg       0.36      0.33      0.34       985
+weighted avg       0.34      0.31      0.32       985
+
+--------------------
+[[ 99  38  25  37]
+ [ 19  59  41 136]
+ [ 31  62 103  43]
+ [ 18 187  40  47]]
+Current Time = 23:43:26
+Random Forest (OvR)
+Current Time = 23:43:27
+acc:	 0.22842639593908629
+              precision    recall  f1-score   support
+
+     country       0.60      0.02      0.03       199
+      hiphop       0.20      0.41      0.27       255
+         pop       0.38      0.23      0.29       239
+        rock       0.21      0.21      0.21       292
+
+    accuracy                           0.23       985
+   macro avg       0.35      0.22      0.20       985
+weighted avg       0.33      0.23      0.21       985
+
+--------------------
+[[  3 104  40  52]
+ [  0 105  27 123]
+ [  1 118  55  65]
+ [  1 208  21  62]]
+Current Time = 23:43:27
+
+___________________________
+
+
+Current Time = 23:44:13
+Current Time = 23:44:13
+AdaBoost (OvR)
+Current Time = 23:44:25
+acc:	 0.37969543147208124
+              precision    recall  f1-score   support
+
+     country       0.62      0.66      0.64       199
+      hiphop       0.21      0.23      0.22       255
+         pop       0.55      0.59      0.57       239
+        rock       0.19      0.15      0.16       292
+
+    accuracy                           0.38       985
+   macro avg       0.39      0.41      0.40       985
+weighted avg       0.37      0.38      0.37       985
+
+--------------------
+[[131  21  24  23]
+ [ 24  59  41 131]
+ [ 35  29 141  34]
+ [ 23 176  50  43]]
+Current Time = 23:44:26
+Naive Bayes (OvR)
+Current Time = 23:44:26
+acc:	 0.2934010152284264
+              precision    recall  f1-score   support
+
+     country       0.00      0.00      0.00       199
+      hiphop       0.00      0.00      0.00       255
+         pop       0.36      0.04      0.07       239
+        rock       0.29      0.96      0.45       292
+
+    accuracy                           0.29       985
+   macro avg       0.16      0.25      0.13       985
+weighted avg       0.17      0.29      0.15       985
+
+--------------------
+[[  0   0   4 195]
+ [  0   0   4 251]
+ [  0   0   9 230]
+ [  0   4   8 280]]
+Current Time = 23:44:26
+QDA (OvR)
+Current Time = 23:44:28
+acc:	 0.2862944162436548
+              precision    recall  f1-score   support
+
+     country       0.00      0.00      0.00       199
+      hiphop       0.09      0.02      0.03       255
+         pop       0.64      0.04      0.07       239
+        rock       0.29      0.92      0.45       292
+
+    accuracy                           0.29       985
+   macro avg       0.26      0.24      0.14       985
+weighted avg       0.27      0.29      0.16       985
+
+--------------------
+[[  0  16   4 179]
+ [  0   5   0 250]
+ [  2  13   9 215]
+ [  0  23   1 268]]
+Current Time = 23:44:29
+Linear SVM (OvO)
+Current Time = 23:44:29
+acc:	 0.29746192893401013
+              precision    recall  f1-score   support
+
+     country       0.41      0.70      0.52       199
+      hiphop       0.09      0.06      0.07       255
+         pop       0.39      0.53      0.45       239
+        rock       0.08      0.04      0.06       292
+
+    accuracy                           0.30       985
+   macro avg       0.24      0.33      0.27       985
+weighted avg       0.22      0.30      0.25       985
+
+--------------------
+[[139  15  33  12]
+ [ 61  15  78 101]
+ [ 52  29 126  32]
+ [ 87 103  89  13]]
+Current Time = 23:44:45
+Nearest Neighbors (OvO)
+Current Time = 23:45:01
+acc:	 0.37360406091370557
+              precision    recall  f1-score   support
+
+     country       0.44      0.61      0.51       199
+      hiphop       0.32      0.51      0.39       255
+         pop       0.39      0.49      0.43       239
+        rock       0.33      0.00      0.01       292
+
+    accuracy                           0.37       985
+   macro avg       0.37      0.40      0.34       985
+weighted avg       0.36      0.37      0.31       985
+
+--------------------
+[[121  50  28   0]
+ [ 47 129  77   2]
+ [ 40  82 117   0]
+ [ 69 143  79   1]]
+Current Time = 23:45:16
+RBF SVM (OvO)
+Current Time = 23:45:35
+acc:	 0.20101522842639594
+              precision    recall  f1-score   support
+
+     country       0.79      0.50      0.61       199
+      hiphop       0.05      0.11      0.07       255
+         pop       0.57      0.29      0.38       239
+        rock       0.01      0.01      0.01       292
+
+    accuracy                           0.20       985
+   macro avg       0.36      0.23      0.27       985
+weighted avg       0.32      0.20      0.24       985
+
+--------------------
+[[ 99  75  22   3]
+ [  4  27  15 209]
+ [ 18 137  69  15]
+ [  4 271  14   3]]
+Current Time = 23:45:53
+______________________________________
+Current Time = 23:47:07
+Current Time = 23:47:07
+Decision Tree (OvO)
+Current Time = 23:47:10
+acc:	 0.3472081218274112
+              precision    recall  f1-score   support
+
+     country       0.59      0.44      0.50       199
+      hiphop       0.19      0.15      0.16       255
+         pop       0.42      0.42      0.42       239
+        rock       0.29      0.40      0.34       292
+
+    accuracy                           0.35       985
+   macro avg       0.37      0.35      0.36       985
+weighted avg       0.36      0.35      0.35       985
+
+--------------------
+[[ 88  28  35  48]
+ [ 14  37  48 156]
+ [ 29  30 100  80]
+ [ 19 101  55 117]]
+Current Time = 23:47:10
+Random Forest (OvO)
+Current Time = 23:47:10
+acc:	 0.233502538071066
+              precision    recall  f1-score   support
+
+     country       0.00      0.00      0.00       199
+      hiphop       0.20      0.40      0.27       255
+         pop       0.51      0.19      0.28       239
+        rock       0.21      0.28      0.24       292
+
+    accuracy                           0.23       985
+   macro avg       0.23      0.22      0.20       985
+weighted avg       0.24      0.23      0.21       985
+
+--------------------
+[[  0 101  16  82]
+ [  0 103  15 137]
+ [  0 108  46  85]
+ [  0 198  13  81]]
+Current Time = 23:47:10
+AdaBoost (OvO)
+Current Time = 23:47:42
+acc:	 0.3634517766497462
+              precision    recall  f1-score   support
+
+     country       0.72      0.63      0.67       199
+      hiphop       0.15      0.18      0.16       255
+         pop       0.62      0.59      0.61       239
+        rock       0.16      0.15      0.16       292
+
+    accuracy                           0.36       985
+   macro avg       0.41      0.39      0.40       985
+weighted avg       0.38      0.36      0.37       985
+
+--------------------
+[[126  27  22  24]
+ [ 15  46  29 165]
+ [ 21  35 141  42]
+ [ 14 198  35  45]]
+Current Time = 23:47:42
+Naive Bayes (OvO)
+Current Time = 23:47:43
+acc:	 0.23451776649746192
+              precision    recall  f1-score   support
+
+     country       0.22      0.94      0.36       199
+      hiphop       0.10      0.01      0.01       255
+         pop       0.39      0.14      0.20       239
+        rock       0.22      0.03      0.05       292
+
+    accuracy                           0.23       985
+   macro avg       0.23      0.28      0.16       985
+weighted avg       0.23      0.23      0.14       985
+
+--------------------
+[[188   0   5   6]
+ [205   2  29  19]
+ [203   0  33   3]
+ [249  18  17   8]]
+Current Time = 23:47:43
+QDA (OvO)
+Current Time = 23:47:46
+acc:	 0.20609137055837565
+              precision    recall  f1-score   support
+
+     country       0.00      0.00      0.00       199
+      hiphop       0.04      0.04      0.04       255
+         pop       0.41      0.73      0.52       239
+        rock       0.06      0.07      0.06       292
+
+    accuracy                           0.21       985
+   macro avg       0.13      0.21      0.16       985
+weighted avg       0.13      0.21      0.16       985
+
+--------------------
+[[  0  11 134  54]
+ [  0  10  54 191]
+ [  2  12 174  51]
+ [  0 209  64  19]]
+Current Time = 23:47:47
