@@ -1,0 +1,161 @@
+Training Set Accuracy: 0.28683943089430897
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.00      0.00      0.00       738
+      hiphop       0.29      1.00      0.45      1131
+         pop       0.00      0.00      0.00       973
+        rock       0.00      0.00      0.00      1094
+
+    accuracy                           0.29      3936
+   macro avg       0.07      0.25      0.11      3936
+weighted avg       0.08      0.29      0.13      3936
+
+--------------------
+Confusion Matrix Training Set:
+[[   0  738    0    0]
+ [   2 1129    0    0]
+ [   0  972    0    1]
+ [   2 1092    0    0]]
+
+Testing Set Accuracy: 0.25888324873096447
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.00      0.00      0.00       199
+      hiphop       0.26      1.00      0.41       255
+         pop       0.00      0.00      0.00       239
+        rock       0.00      0.00      0.00       292
+
+    accuracy                           0.26       985
+   macro avg       0.06      0.25      0.10       985
+weighted avg       0.07      0.26      0.11       985
+
+--------------------
+Confusion Matrix Testing Set:
+[[  0 199   0   0]
+ [  0 255   0   0]
+ [  0 239   0   0]
+ [  0 292   0   0]]
+
+Training Set Accuracy: 0.506859756097561
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.71      0.64      0.67       738
+      hiphop       0.41      0.64      0.50      1131
+         pop       0.62      0.57      0.59       973
+        rock       0.39      0.22      0.28      1094
+
+    accuracy                           0.51      3936
+   macro avg       0.53      0.52      0.51      3936
+weighted avg       0.51      0.51      0.50      3936
+
+--------------------
+Confusion Matrix Training Set:
+[[473 120  90  55]
+ [ 62 727 133 209]
+ [ 76 230 554 113]
+ [ 58 676 119 241]]
+
+Testing Set Accuracy: 0.4020304568527919
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.64      0.57      0.60       199
+      hiphop       0.33      0.59      0.42       255
+         pop       0.51      0.42      0.46       239
+        rock       0.20      0.11      0.14       292
+
+    accuracy                           0.40       985
+   macro avg       0.42      0.42      0.41       985
+weighted avg       0.40      0.40      0.39       985
+
+--------------------
+Confusion Matrix Testing Set:
+[[113  39  26  21]
+ [ 13 150  28  64]
+ [ 34  64 101  40]
+ [ 17 201  42  32]]
+
+Training Set Accuracy: 0.6796239837398373
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.83      0.92      0.87       738
+      hiphop       0.57      0.56      0.56      1131
+         pop       0.75      0.91      0.82       973
+        rock       0.58      0.44      0.50      1094
+
+    accuracy                           0.68      3936
+   macro avg       0.68      0.71      0.69      3936
+weighted avg       0.67      0.68      0.67      3936
+
+--------------------
+Confusion Matrix Training Set:
+[[679   8  44   7]
+ [ 51 628 126 326]
+ [ 35  30 882  26]
+ [ 52 427 129 486]]
+
+Testing Set Accuracy: 0.33096446700507615
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.64      0.76      0.70       199
+      hiphop       0.07      0.08      0.08       255
+         pop       0.54      0.61      0.57       239
+        rock       0.04      0.03      0.04       292
+
+    accuracy                           0.33       985
+   macro avg       0.32      0.37      0.35       985
+weighted avg       0.29      0.33      0.31       985
+
+--------------------
+Confusion Matrix Testing Set:
+[[152   6  35   6]
+ [ 20  20  46 169]
+ [ 45  25 145  24]
+ [ 19 221  43   9]]
+
+Training Set Accuracy: 0.7235772357723578
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.96      0.90      0.93       738
+      hiphop       0.57      0.57      0.57      1131
+         pop       0.94      0.91      0.93       973
+        rock       0.55      0.60      0.57      1094
+
+    accuracy                           0.72      3936
+   macro avg       0.76      0.74      0.75      3936
+weighted avg       0.73      0.72      0.73      3936
+
+--------------------
+Confusion Matrix Training Set:
+[[665  32  10  31]
+ [  7 644  21 459]
+ [ 10  34 888  41]
+ [  9 412  22 651]]
+
+Testing Set Accuracy: 0.11573604060913706
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.40      0.11      0.17       199
+      hiphop       0.03      0.05      0.04       255
+         pop       0.43      0.21      0.29       239
+        rock       0.07      0.10      0.08       292
+
+    accuracy                           0.12       985
+   macro avg       0.23      0.12      0.14       985
+weighted avg       0.21      0.12      0.14       985
+
+--------------------
+Confusion Matrix Testing Set:
+[[ 21  72  36  70]
+ [  5  14  16 220]
+ [ 24  72  51  92]
+ [  3 246  15  28]]
+
+
