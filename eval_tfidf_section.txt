@@ -292,3 +292,39 @@ Confusion Matrix Testing Set:
  [ 18  29 132  60]
  [ 58 115  53  66]]
 ------------------------------
+Results for Neural Net Classifier
+Training Set Accuracy: 0.5508130081300813
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.68      0.74      0.71       738
+      hiphop       0.45      0.72      0.55      1131
+         pop       0.68      0.61      0.64       973
+        rock       0.47      0.19      0.27      1094
+
+    accuracy                           0.55      3936
+   macro avg       0.57      0.57      0.55      3936
+weighted avg       0.56      0.55      0.53      3936
+Confusion Matrix Training Set:
+[[546  53 132   7]
+ [ 46 814  79 192]
+ [158 181 596  38]
+ [ 52 758  72 212]]
+Testing Set Accuracy: 0.5065989847715736
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.70      0.65      0.68       199
+      hiphop       0.37      0.23      0.28       255
+         pop       0.56      0.64      0.59       239
+        rock       0.43      0.54      0.48       292
+
+    accuracy                           0.51       985
+   macro avg       0.51      0.52      0.51       985
+weighted avg       0.50      0.51      0.50       985
+Confusion Matrix Testing Set:
+[[130   4  56   9]
+ [ 11  58  27 159]
+ [ 32  13 152  42]
+ [ 12  83  38 159]]
+------------------------------
