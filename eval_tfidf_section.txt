@@ -1,0 +1,294 @@
+Results for Random Forest Classifier
+Training Set Accuracy: 0.49771341463414637
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.73      0.30      0.42       738
+      hiphop       0.47      0.83      0.60      1131
+         pop       0.49      0.81      0.62       973
+        rock       0.42      0.01      0.01      1094
+
+    accuracy                           0.50      3936
+   macro avg       0.53      0.49      0.41      3936
+weighted avg       0.51      0.50      0.41      3936
+Confusion Matrix Training Set:
+[[220  42 476   0]
+ [ 12 939 172   8]
+ [ 62 116 792   3]
+ [  9 915 162   8]]
+Testing Set Accuracy: 0.4751269035532995
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.75      0.29      0.42       199
+      hiphop       0.43      0.87      0.57       255
+         pop       0.49      0.79      0.60       239
+        rock       0.00      0.00      0.00       292
+
+    accuracy                           0.48       985
+   macro avg       0.42      0.49      0.40       985
+weighted avg       0.38      0.48      0.38       985
+Confusion Matrix Testing Set:
+[[ 58  17 123   1]
+ [  0 222  33   0]
+ [ 16  33 188   2]
+ [  3 246  43   0]]
+------------------------------
+Results for ADA Boost Classifier
+Training Set Accuracy: 0.5510670731707317
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.71      0.66      0.68       738
+      hiphop       0.47      0.48      0.48      1131
+         pop       0.60      0.69      0.64       973
+        rock       0.47      0.43      0.45      1094
+
+    accuracy                           0.55      3936
+   macro avg       0.57      0.56      0.56      3936
+weighted avg       0.55      0.55      0.55      3936
+Confusion Matrix Training Set:
+[[485  19 213  21]
+ [ 23 547 123 438]
+ [149  86 671  67]
+ [ 23 502 103 466]]
+Testing Set Accuracy: 0.4984771573604061
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.74      0.62      0.67       199
+      hiphop       0.36      0.38      0.37       255
+         pop       0.58      0.71      0.64       239
+        rock       0.39      0.35      0.37       292
+
+    accuracy                           0.50       985
+   macro avg       0.52      0.51      0.51       985
+weighted avg       0.50      0.50      0.50       985
+Confusion Matrix Testing Set:
+[[123   8  58  10]
+ [  6  98  22 129]
+ [ 31  21 169  18]
+ [  6 143  42 101]]
+------------------------------
+Results for Linear SVM Classifier
+Training Set Accuracy: 0.45147357723577236
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.46      0.80      0.58       738
+      hiphop       0.47      0.28      0.35      1131
+         pop       0.44      0.65      0.52       973
+        rock       0.46      0.21      0.29      1094
+
+    accuracy                           0.45      3936
+   macro avg       0.45      0.49      0.44      3936
+weighted avg       0.46      0.45      0.42      3936
+Confusion Matrix Training Set:
+[[594  14 120  10]
+ [233 313 357 228]
+ [247  53 636  37]
+ [229 293 338 234]]
+Testing Set Accuracy: 0.4416243654822335
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.46      0.82      0.59       199
+      hiphop       0.40      0.25      0.31       255
+         pop       0.44      0.64      0.52       239
+        rock       0.43      0.18      0.26       292
+
+    accuracy                           0.44       985
+   macro avg       0.43      0.47      0.42       985
+weighted avg       0.43      0.44      0.40       985
+Confusion Matrix Testing Set:
+[[163   1  30   5]
+ [ 59  65  71  60]
+ [ 66  13 153   7]
+ [ 63  85  90  54]]
+------------------------------
+Results for k-Nearest Neighbor Classifier
+Training Set Accuracy: 0.3788109756097561
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.29      0.84      0.43       738
+      hiphop       0.37      0.09      0.15      1131
+         pop       0.55      0.58      0.56       973
+        rock       0.42      0.18      0.25      1094
+
+    accuracy                           0.38      3936
+   macro avg       0.41      0.42      0.35      3936
+weighted avg       0.41      0.38      0.33      3936
+Confusion Matrix Training Set:
+[[621  45  38  34]
+ [623 107 219 182]
+ [297  48 565  63]
+ [598  86 212 198]]
+Testing Set Accuracy: 0.24873096446700507
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.25      0.69      0.36       199
+      hiphop       0.18      0.07      0.10       255
+         pop       0.27      0.21      0.23       239
+        rock       0.27      0.14      0.19       292
+
+    accuracy                           0.25       985
+   macro avg       0.24      0.28      0.22       985
+weighted avg       0.24      0.25      0.21       985
+Confusion Matrix Testing Set:
+[[137  15  32  15]
+ [132  17  49  57]
+ [128  24  50  37]
+ [157  38  56  41]]
+------------------------------
+------------------------------
+------------------------------
+TRAINING AND TESTING USING WHOLE CORPUS TO GET UPPERBOUND PERFORMANCE
+RESULTS BELOW
+
+
+Results for Random Forest Classifier
+Training Set Accuracy: 0.49822154471544716
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.72      0.34      0.46       738
+      hiphop       0.47      0.51      0.49      1131
+         pop       0.50      0.80      0.62       973
+        rock       0.44      0.33      0.37      1094
+
+    accuracy                           0.50      3936
+   macro avg       0.53      0.49      0.49      3936
+weighted avg       0.52      0.50      0.48      3936
+Confusion Matrix Training Set:
+[[250  20 444  24]
+ [ 13 576 162 380]
+ [ 76  64 777  56]
+ [  9 566 161 358]]
+Testing Set Accuracy: 0.49949238578680205
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.73      0.35      0.47       199
+      hiphop       0.44      0.52      0.48       255
+         pop       0.50      0.77      0.60       239
+        rock       0.49      0.36      0.41       292
+
+    accuracy                           0.50       985
+   macro avg       0.54      0.50      0.49       985
+weighted avg       0.53      0.50      0.49       985
+Confusion Matrix Testing Set:
+[[ 69  10 111   9]
+ [  1 133  38  83]
+ [ 20  15 185  19]
+ [  5 143  39 105]]
+------------------------------
+Results for ADA Boost Classifier
+Training Set Accuracy: 0.5353150406504065
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.67      0.67      0.67       738
+      hiphop       0.47      0.37      0.41      1131
+         pop       0.57      0.72      0.64       973
+        rock       0.45      0.45      0.45      1094
+
+    accuracy                           0.54      3936
+   macro avg       0.54      0.55      0.54      3936
+weighted avg       0.53      0.54      0.53      3936
+Confusion Matrix Training Set:
+[[496  11 209  22]
+ [ 40 417 168 506]
+ [167  42 703  61]
+ [ 37 410 156 491]]
+Testing Set Accuracy: 0.5543147208121827
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.71      0.72      0.72       199
+      hiphop       0.46      0.41      0.43       255
+         pop       0.59      0.73      0.65       239
+        rock       0.48      0.42      0.45       292
+
+    accuracy                           0.55       985
+   macro avg       0.56      0.57      0.56       985
+weighted avg       0.55      0.55      0.55       985
+Confusion Matrix Testing Set:
+[[144   5  41   9]
+ [  9 104  33 109]
+ [ 38   8 174  19]
+ [ 12 111  45 124]]
+------------------------------
+Results for Linear SVM Classifier
+Training Set Accuracy: 0.4339430894308943
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.43      0.83      0.56       738
+      hiphop       0.45      0.42      0.43      1131
+         pop       0.43      0.63      0.51       973
+        rock       0.47      0.01      0.01      1094
+
+    accuracy                           0.43      3936
+   macro avg       0.44      0.47      0.38      3936
+weighted avg       0.45      0.43      0.36      3936
+Confusion Matrix Training Set:
+[[610  25 103   0]
+ [282 473 369   7]
+ [267  87 617   2]
+ [271 459 356   8]]
+Testing Set Accuracy: 0.449746192893401
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.45      0.85      0.59       199
+      hiphop       0.43      0.46      0.45       255
+         pop       0.46      0.65      0.54       239
+        rock       0.33      0.00      0.01       292
+
+    accuracy                           0.45       985
+   macro avg       0.42      0.49      0.40       985
+weighted avg       0.41      0.45      0.37       985
+Confusion Matrix Testing Set:
+[[170   7  22   0]
+ [ 64 117  72   2]
+ [ 69  15 155   0]
+ [ 75 131  85   1]]
+------------------------------
+Results for k-Nearest Neighbor Classifier
+Training Set Accuracy: 0.40497967479674796
+Classification Report Training Set:
+              precision    recall  f1-score   support
+
+     country       0.39      0.51      0.44       738
+      hiphop       0.41      0.37      0.39      1131
+         pop       0.55      0.58      0.56       973
+        rock       0.26      0.21      0.23      1094
+
+    accuracy                           0.40      3936
+   macro avg       0.40      0.42      0.41      3936
+weighted avg       0.40      0.40      0.40      3936
+Confusion Matrix Training Set:
+[[378 100  43 217]
+ [254 421 212 244]
+ [ 92 111 561 209]
+ [252 405 203 234]]
+Testing Set Accuracy: 0.4101522842639594
+Classification Report Testing Set:
+              precision    recall  f1-score   support
+
+     country       0.45      0.54      0.49       199
+      hiphop       0.37      0.39      0.38       255
+         pop       0.55      0.55      0.55       239
+        rock       0.28      0.23      0.25       292
+
+    accuracy                           0.41       985
+   macro avg       0.41      0.43      0.42       985
+weighted avg       0.40      0.41      0.40       985
+Confusion Matrix Testing Set:
+[[107  26  13  53]
+ [ 56  99  44  56]
+ [ 18  29 132  60]
+ [ 58 115  53  66]]
+------------------------------
